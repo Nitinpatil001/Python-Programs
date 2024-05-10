@@ -1,0 +1,12 @@
+#store empno name deptname salary from emp.dat file
+fp=open("emp.dat","w")
+en=input("enter empno ")
+nm=input("enter name ")
+dn=input("enter dept name ")
+sal=input("enter salary ")
+fp.write(en+"\n")
+fp.write(nm+"\n")
+fp.write(dn+"\n")
+fp.write(sal+"\n")
+fp.close()
+print("data stored")
